@@ -8,8 +8,7 @@ import thunk from 'redux-thunk'
 import {composeWithDevTools} from "redux-devtools-extension";
 
 const reducers = {
-    todos,
-    isLoading
+    todos
 };
 
 const persistConfig = {
