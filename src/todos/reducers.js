@@ -2,7 +2,6 @@ import {CREATE_TODO, MARK_TODO_AS_COMPLETE, REMOVE_TODO} from "./actions";
 
 export const todos = (state = [], action) => {
     const {type, payload} = action;
-
     switch (type) {
         case CREATE_TODO: {
             const {text} = payload;
