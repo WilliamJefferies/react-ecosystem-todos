@@ -17,9 +17,9 @@ export const isLoading = (state = false, action) => {
         case LOAD_TODOS_FAILURE:
             return false;
         default:
-            return state
+            return state;
     }
-}
+};
 
 export const todos = (state = [], action) => {
     const {type, payload} = action;
@@ -36,13 +36,13 @@ export const todos = (state = [], action) => {
             const {todo: updatedTodo} = payload;
             return state.map(todo => {
                 if (todo.id === updatedTodo.id) {
-                    return updatedTodo
+                    return updatedTodo;
                 }
             })
         }
         case LOAD_TODOS_SUCCESS: {
             const {todos} = payload;
-            return todos
+            return todos;
         }
         case LOAD_TODOS_IN_PROGRESS:
         case LOAD_TODOS_FAILURE:
