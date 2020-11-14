@@ -17,6 +17,11 @@ const TodoItemContainerWithWarning = styled(TodoItemContainer)`
     '2px solid red')};
 `;
 
+export const getBorderStyleForDate = (startingDate, currentDate) =>
+    (startingDate > new Date(currentDate - 86400000 * 5)
+        ? 'none'
+        : '2px solid red');
+
 const ButtonsContainer = styled.div`
     position: absolute;
     right: 12px;
