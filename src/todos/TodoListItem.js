@@ -11,10 +11,7 @@ const TodoItemContainer = styled.div`
 `;
 
 const TodoItemContainerWithWarning = styled(TodoItemContainer)`
-    border-bottom: ${props => (new Date(props.createdAt) > new Date(Date.now() - 8640000 * 5)
-    ?
-    'none' :
-    '2px solid red')};
+    border-bottom: ${props => getBorderStyleForDate(new Date(props.createdAt, Date.now()))};
 `;
 
 export const getBorderStyleForDate = (startingDate, currentDate) =>
