@@ -10,7 +10,7 @@ Simple today app using the extended react ecosystem
 ## Getting Started
 
 ```
-npm i & npm start
+npm i & npm run dev
 ```
 
 ## SRC
