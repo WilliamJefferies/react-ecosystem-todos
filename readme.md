@@ -1,4 +1,4 @@
-# Todos Extended React
+# Redux-Thunk-Todos-App
 
 Todo app using the extended react ecosystem to implement good practice design patterns.
 
