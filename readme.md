@@ -1,7 +1,8 @@
 # Todos Extended React
 
-Todo app using the extended react ecosystem to implement good practice design patterns
+Todo app using the extended react ecosystem to implement good practice design patterns.
 
+### Technologies used:
 * React
 * Redux
 * Thunk
