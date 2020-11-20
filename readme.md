@@ -1,6 +1,7 @@
 # Todos Extended React
 
-Simple today app using the extended react ecosystem
+Todo app using the extended react ecosystem to implement good practice design patterns
+
 * React
 * Redux
 * Thunk
