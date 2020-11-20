@@ -2,7 +2,7 @@
 
 Todo app using the extended react ecosystem to implement good practice design patterns.
 
-### Technologies used:
+### Prod Deps:
 * React
 * Redux
 * Thunk
