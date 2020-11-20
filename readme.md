@@ -1,4 +1,4 @@
-# React (Extended Ecosystem) TODO App
+# Todos Extended React App
 
 Simple today app using the extended react ecosystem
 * React
