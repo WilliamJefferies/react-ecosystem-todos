@@ -2,6 +2,8 @@
 
 Todo app using the extended react ecosystem to implement good practice design patterns.
 
+Uses data persistence to maintain state in local storage.
+
 ### Stack
 * React
 * Redux
